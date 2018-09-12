@@ -6,3 +6,6 @@ run_tests:
 
 sicp_install:
 	raco pkg install sicp
+
+new:
+	ansible-playbook templates/templating.yml -i localhost, --connection=local -e exc=$(e) -v

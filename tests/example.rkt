@@ -6,7 +6,7 @@
 (define tests
   (test-suite
     "example test"
-    (check-equal? (square 2) 4)))
+    (check-equal? (solution 2) 4)))
 
 (run-tests tests 'verbose)
 

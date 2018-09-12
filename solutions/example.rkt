@@ -1,5 +1,5 @@
 #lang racket
 
-(define (square x) (* x x))
+(define (solution x) (* x x))
 
-(provide square)
+(provide solution)
